@@ -1,0 +1,276 @@
+body{
+    font-family:  Copperplate, Papyrus, fantasy; 
+    background-color: rgb(19, 19, 19); 
+    border-top: 0px;
+    border-bottom: 0px;                                
+}
+.btn-group{
+  display: flex;
+  width: 10%;
+  /* margin-right: 10vw;
+  margin-top: 10vh; */
+  position: absolute;
+  right: 35%;    
+  top: 5%;
+}
+.btn-group .buttonss {
+  background-color: black; 
+  border: solid 1px rgb(100, 100, 100);
+  border-radius: 15%;
+  border-top: 0px;
+  border-bottom: 0px;
+  color: white;
+  padding: 12px 20px;
+  margin: 0px auto;
+  margin-right: 5px;
+  
+      
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: Copperplate, Papyrus, fantasy;
+  cursor: pointer;
+  float: left; 
+}
+.btn-group .buttonss:hover {
+  border: 4px solid  white;
+  border-top: 0px;
+  border-bottom: 0px;
+  color: rgb(255, 140, 0);
+  background-color: rgb(24,21,21);
+}
+
+.heading{
+    text-align: left;
+    color: rgb(247, 121, 63);
+    font-size: 20px;
+    position: absolute;
+    /* left: 500px; */
+}
+
+
+input[type=text], input[type=password] {
+padding: 12px 20px;
+display: inline-block;
+background-color:rgb(19, 19, 19);
+border: 0.01px solid rgb(65, 59, 59);
+border-top: 0px ;
+border-left: 0px ;
+border-right: 0px ;
+box-sizing: border-box;
+position: absolute;
+left: 150px;
+bottom: 10px;
+text-align: left;
+color: rgb(180, 180, 180);
+font-size: 15px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ .container1 {   
+   position: absolute;
+   left: 550px;
+   top: 100px;
+   color: rgb(255, 163, 121);
+   font-size: 15px;
+   width: 50%;
+ } 
+ 
+ .container2 {            
+   position: absolute;
+   left: 550px;
+   top: 160px;
+   color: rgb(255, 163, 121);
+   font-size: 15px;
+   width: 50%;
+ }           
+ 
+ .container3{
+     position: absolute;
+     left: 300px;
+     top: 230px;
+     color: rgb(255, 163, 121);
+     font-size: 15px;
+     width: 50%;
+ }
+
+ .container4{
+     position: absolute;
+     left: 850px;
+     top: 234px;
+     color: rgb(255, 163, 121);
+     font-size: 15px
+     width: 50%;
+ }
+
+
+    .signupbtn{
+     font-family:  Copperplate, Papyrus, fantasy; ;
+      color: black;
+      font-size: 21px;
+      width: 200px;
+      height: 50px;
+      border-style: none;
+      background-color: rgb(240, 107, 59);
+      border-radius: 8px;
+      position: absolute;
+      top: 550px;
+      left: 650px;
+      margin-top: 25px;
+     }
+
+    .signupbtn:hover{
+      background-color: rgb(253, 95, 38);
+      border: solid 3px rgb(255, 255, 255);
+     }
+
+     .terms{
+       height: 210px;
+       width: 500px;
+       background-color: rgb(19, 19, 19);
+       border: solid 0.5px rgb(73, 72, 72);
+       border-radius: 10px;
+       position: absolute;
+       left: 520px;
+       top: 320px;
+       text-align: center; 
+       color: rgb(255, 85, 0);
+       }
+      
+
+       @media (max-width: 450px) {
+        .heading{
+          text-align: center;
+          color: rgb(247, 121, 63);
+          font-size: 10px;
+          position: absolute;
+          left: 15%;
+          font-family: Copperplate, Papyrus, fantasy;
+      }
+      .btn-group{
+        /* background-color: rgb(114, 114, 114);  */
+        border: solid 1px cornsilk;
+        border-radius: 15%;
+        border-top: 0px;
+        /* border-left: 0px;
+        border-right: 0px; */
+        border-bottom: 0px;
+        color: white;
+        /* padding: 8px 9px; */
+        /* position: relative; */
+        /* top: 300px;
+        right:1000px; */
+        /* background-color: aqua; */
+        width: 64%;
+        /* background-color: brown; */
+        /* margin:0px; */
+        /* justify-content: space-between; */
+        position: absolute;
+        left: 12%;
+        top: 10%;
+
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        font-family: Copperplate, Papyrus, fantasy;
+        cursor: pointer;
+        /* float: left; */
+        }
+
+        .btn-group .buttonss{
+            width: 100%;
+            font-size: 10px;
+            box-sizing: border-box;
+            padding: 3px;
+            margin: 0px;         
+        }
+    
+        .btn-group .buttonss:hover {
+            border: 4px solid  white;
+            border-top: 0px;
+            border-bottom: 0px;
+            color: rgb(255, 140, 0);
+            background-color: rgb(24, 21, 21);
+          }
+      .terms{
+        height: 110px;
+        width: 300px;
+        background-color: rgb(19, 19, 19);
+        position: absolute;
+        left: 100px;
+        top: 400px;
+        text-align: center; 
+        color: rgb(255, 85, 0);
+        font-family: Copperplate, Papyrus, fantasy;
+        }
+        
+    .signupbtn{
+      font-family:  Copperplate, Papyrus, fantasy; ;
+       color: black;
+       font-size: 21px;
+       width: 200px;
+       height: 50px;
+       border-style: none;
+       background-color: rgb(240, 107, 59);
+       border-radius: 8px;
+       position: absolute;
+       top: 75%;
+       left: 20%;
+       margin-top: 25px;
+       font-family: Copperplate, Papyrus, fantasy;
+
+      }
+      .signupbtn:hover{
+        background-color: rgb(253, 95, 38);
+        border: solid 3px rgb(255, 255, 255);
+       }
+       .container1 {   
+        position: absolute;
+        left: 25px;
+        top: 100px;
+        color: rgb(255, 163, 121);
+        font-size: 15px;
+      } 
+      
+      .container2 {            
+        position: absolute;
+        left: 25px;
+        top: 160px;
+        color: rgb(255, 163, 121);
+        font-size: 15px;
+      }           
+      
+      .container3{
+          position: absolute;
+          left: 30px;
+          top: 230px;
+          color: rgb(255, 163, 121);
+          font-size: 15px;
+      }
+     
+      .container4{
+          position: absolute;
+          left: 25px;
+          top: 300px;
+          color: rgb(255, 163, 121);
+          font-size: 15px
+      }
+      .terms{
+        height: 26%;
+        width: 80%;
+        background-color: rgb(19, 19, 19);
+        border: solid 0.5px rgb(73, 72, 72);
+        border-radius: 10px;
+        position: absolute;
+        left: 5%;
+        top: 50%;
+        text-align: center; 
+        color: rgb(255, 85, 0);
+        font-size: 60%;
+        }
+       
+      
+
+}

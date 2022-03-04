@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    background-size: cover; 
+  }
+  .btn-group{
+    display: flex;
+    width: 10%;
+    /* margin-right: 10vw;
+    margin-top: 10vh; */
+    position: absolute;
+    right: 32%;    
+    top: 0%;
+}
+  .btn-group .buttonss {
+    background-color: black; 
+    border: solid 1px rgb(100, 100, 100);
+    border-radius: 15%;
+    border-top: 0px;
+    border-bottom: 0px;
+    color: white;
+    padding: 12px 20px;
+    margin: 0px auto;
+    margin-right: 5px;
+    
+        
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Copperplate, Papyrus, fantasy;
+    cursor: pointer;
+    float: left; 
+}
+.btn-group .buttonss:hover {
+    border: 4px solid  white;
+    border-top: 0px;
+    border-bottom: 0px;
+    color: rgb(255, 140, 0);
+    background-color: rgb(24,21,21);
+  }
+  .heading{
+    background-color: rgb(63, 11, 11); 
+    text-align: center; 
+    font-size: 40px;
+    color:antiquewhite;
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  .instructions{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: beige;
+     position: relative;
+  }
+    table, th, td {
+        border: 1px solid rgb(255, 255, 255);
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 15px;
+        padding: 25px;
+        color:antiquewhite;
+        position: relative;
+      }
+    
+    table.center {
+        margin-left: auto; 
+        margin-right: auto;
+        }
+    .qoute{
+        font-size: 25px;
+        font-family: Copperplate, Papyrus, fantasy;
+         position: absolute;
+         left: 375px;
+         color: antiquewhite;
+    }
+        @media (max-width: 450px) {
+          .heading{
+            background-color: rgb(63, 11, 11); 
+            text-align: center; 
+            font-size: 30px;
+            color:antiquewhite;
+            font-family: Copperplate, Papyrus, fantasy;
+          }
+          .instructions{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            color: beige;
+            position: relative;
+            font-size: 13px;
+          }
+          .qoute{
+            font-size: 20px;
+            text-align: center;
+            font-family: Copperplate, Papyrus, fantasy;
+            position: absolute;
+            left: 10px;
+            color: antiquewhite;
+        }
+        .btn-group{
+          /* background-color: rgb(114, 114, 114);  */
+          border: solid 1px cornsilk;
+          border-radius: 15%;
+          border-top: 0px;
+          /* border-left: 0px;
+          border-right: 0px; */
+          border-bottom: 0px;
+          color: white;
+          /* padding: 8px 9px; */
+          /* position: relative; */
+          /* top: 300px;
+          right:1000px; */
+          /* background-color: aqua; */
+          width: 64%;
+          /* background-color: brown; */
+          /* margin:0px; */
+          /* justify-content: space-between; */
+          position: absolute;
+          left: 17%;
+          top: 17%;
+  
+          text-align: center;
+          text-decoration: none;
+          display: flex;
+          flex-direction: row;
+          font-family: Copperplate, Papyrus, fantasy;
+          cursor: pointer;
+          /* float: left; */
+          }
+  
+          .btn-group .buttonss{
+              width: 100%;
+              font-size: 10px;
+              box-sizing: border-box;
+              padding: 3px;
+              margin: 0px;         
+          }
+      
+          .btn-group .buttonss:hover {
+              border: 4px solid  white;
+              border-top: 0px;
+              border-bottom: 0px;
+              color: rgb(255, 140, 0);
+              background-color: rgb(24, 21, 21);
+            }
+
+}
